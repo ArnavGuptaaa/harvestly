@@ -6,7 +6,7 @@ import { Link, useLocation } from 'react-router-dom';
 const BottomNav = () => {
 	const location = useLocation();
 	return (
-		<div className="w-full flex justify-around items-center rounded-t-3xl absolute bottom-0 border border-gray-400 bg-white">
+		<div className="w-full flex justify-around items-center rounded-t-3xl fixed bottom-0 border border-gray-400 bg-white">
 			<div className="p-3">
 				<Link to="/" className="focus:bg-transparent active:bg-transparent">
 					<FiHome

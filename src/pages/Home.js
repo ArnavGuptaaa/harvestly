@@ -4,7 +4,7 @@ const Home = () => {
 	return (
 		<>
 			<HeaderBar backButton={false} title="Harvestly" />
-			<div className="bg-white h-full"></div>
+			<div className="bg-white h-screen"></div>
 		</>
 	);
 };
