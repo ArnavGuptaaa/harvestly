@@ -16,14 +16,6 @@ const BottomNav = () => {
 				</Link>
 			</div>
 			<div className="p-3">
-				<Link to="/alerts">
-					<FiAlertCircle
-						size={32}
-						color={location.pathname === '/alerts' ? '#36A03A' : '#000'}
-					/>
-				</Link>
-			</div>
-			<div className="p-3">
 				<Link to="/orders">
 					<BiCartAlt
 						size={32}
@@ -31,6 +23,15 @@ const BottomNav = () => {
 					/>
 				</Link>
 			</div>
+			<div className="p-3">
+				<Link to="/alerts">
+					<FiAlertCircle
+						size={32}
+						color={location.pathname === '/alerts' ? '#36A03A' : '#000'}
+					/>
+				</Link>
+			</div>
+
 			<div className="p-3">
 				<Link to="/profile">
 					<BsPerson
