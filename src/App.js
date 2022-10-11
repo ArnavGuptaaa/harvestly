@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Orders from './pages/Orders';
 import Alerts from './pages/Alerts';
 import Profile from './pages/Profile';
+import Register from './pages/Register';
 import BottomNav from './components/BottomNav';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 					<Route path="/orders" element={<Orders />} />
 					<Route path="/alerts" element={<Alerts />} />
 					<Route path="/profile" element={<Profile />} />
+					<Route path="/register" element={<Register />} />
 				</Routes>
 				<BottomNav />
 			</Router>
