@@ -42,7 +42,7 @@ const Home = () => {
 				<div className="">
 					<h3 className="pl-2 font-bold text-3xl">Popular Categories</h3>
 					<div className="ml-2 flex overflow-x-auto">
-						<ItemCard itemURL={'../images/item-1.png'} itemName="Cabbage" />
+						<ItemCard itemURL={item1} itemName="Cabbage" />
 						<ItemCard itemURL={item2} itemName="Carrot" />
 						<ItemCard itemURL={item3} itemName="Broccoli" />
 						<ItemCard itemURL={item4} itemName="Cauliflower" />

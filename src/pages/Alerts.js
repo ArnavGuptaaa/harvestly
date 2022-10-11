@@ -6,7 +6,7 @@ const Alerts = () => {
 	return (
 		<>
 			<HeaderBar backButton={true} title="Alerts" />
-			<div className="bg-[#36A03A] h-screen py-20 p-3">
+			<div className="bg-[#36A03A] h-full py-20 p-3">
 				<h3 className="font-bold text-3xl underline text-white">Approvals</h3>
 				<div className="flex overflow-x-auto">
 					<ApprovalCard />

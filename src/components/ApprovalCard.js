@@ -1,12 +1,13 @@
 import React from 'react';
 import { MdCancel, MdCheckCircle } from 'react-icons/md';
+import item1 from '../images/item-1.png';
 function ApprovalCard() {
 	return (
-		<div className="m-2 w-80 h-50 bg-white rounded-2xl">
+		<div className="m-2 h-50 bg-white rounded-2xl w-full">
 			<div className=" p-3 flex justify-center">
 				<img
-					className="rounded-full"
-					src={'../images/item-1.png'}
+					className="rounded-full w-20 h-20"
+					src={item1}
 					alt="Farmer Image"
 				/>
 				<p className="text-md  ">
