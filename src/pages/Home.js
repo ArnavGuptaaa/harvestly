@@ -6,6 +6,11 @@ import {
 } from 'react-icons/md';
 import ItemCard from '../components/ItemCard';
 import FarmerCard from '../components/FarmerCard';
+import item1 from '../images/item-1.png';
+import item2 from '../images/item-2.png';
+import item3 from '../images/item-3.png';
+import item4 from '../images/item-4.png';
+import item5 from '../images/item-5.png';
 const Home = () => {
 	return (
 		<>
@@ -37,14 +42,11 @@ const Home = () => {
 				<div className="">
 					<h3 className="pl-2 font-bold text-3xl">Popular Categories</h3>
 					<div className="ml-2 flex overflow-x-auto">
-						<ItemCard itemName="Cauliflower" />
-						<ItemCard itemName="Cauliflower" />
-						<ItemCard itemName="Cauliflower" />
-						<ItemCard itemName="Cauliflower" />
-						<ItemCard itemName="Cauliflower" />
-						<ItemCard itemName="Cauliflower" />
-						<ItemCard itemName="Cauliflower" />
-						<ItemCard itemName="Cauliflower" />
+						<ItemCard itemURL={'../images/item-1.png'} itemName="Cabbage" />
+						<ItemCard itemURL={item2} itemName="Carrot" />
+						<ItemCard itemURL={item3} itemName="Broccoli" />
+						<ItemCard itemURL={item4} itemName="Cauliflower" />
+						<ItemCard itemURL={item5} itemName="Milk" />
 					</div>
 				</div>
 
